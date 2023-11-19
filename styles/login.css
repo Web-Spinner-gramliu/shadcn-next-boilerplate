@@ -1,0 +1,29 @@
+/* Specific styles for login page */
+
+.login-container {
+  @apply flex min-h-screen bg-background text-foreground flex-col items-center justify-center;
+}
+
+.login-form {
+  @apply w-full max-w-md p-8 bg-card rounded-lg shadow-md;
+}
+
+.login-form h1 {
+  @apply text-xl font-bold mb-6;
+}
+
+.login-form label {
+  @apply block text-sm font-medium mb-2;
+}
+
+.login-form input {
+  @apply w-full px-3 py-2 border border-input rounded-md shadow-sm;
+}
+
+.login-form button {
+  @apply w-full;
+}
+
+.login-actions {
+  @apply flex items-center justify-between mt-6;
+}
